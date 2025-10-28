@@ -1,4 +1,4 @@
-# Placement Management System  
+# Placement Portal     
 _A Smart Way to Manage Student Placement Data_
 
 ## Overview  
