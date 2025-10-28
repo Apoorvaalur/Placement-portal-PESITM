@@ -1,48 +1,72 @@
-# Placement Management System
-## A Smart Way to Manage the Proogress of Students
+# Placement Management System  
+_A Smart Way to Manage Student Placement Data_
 
-# Used Technologies
+## Overview  
+The Placement Management System is a web-based platform designed to streamline the placement process for students, faculty, and placement officers. It offers dedicated portals for different stakeholders and ensures efficient data flow from student biodata submission to placement drive registration.
 
-## Languages
-  1. HTML5
-  2. CSS3
-  3. JavaScript
-  4. PHP (Baxckend Database Functions)
-  5. MySQL (Database)
+---
 
-## IDE & Tools
-  1. Visual Studio 2013 (PHP Tools Installed)
-  2. Visual Studio Code (All Files Editing)
-  3. XAMPP (Apache Server and MySQL)
-  
-* Visual Studio is Used Just to Edit the Code and To Test the PHP files We need to Use Apache Server and The Source Code Local Repo Must be in the XAMPP>htdocs>www folder
+## Technologies Used
 
-## It Contains 4 Portals and 2 Homepages:
-### Portals/Profilers
-  1. Student
-  2. HOD
-  3. Principal
-  4. PLacement
-  
-### Homepages
-  1. Master Homepage
-  2. Drives Homepage
-    
-## Profilers
+### Languages  
+- HTML5  
+- CSS3  
+- JavaScript  
+- PHP (Backend Database Functions)  
+- MySQL (Database)
 
-### 1. Student
-It Contains the Profile Update and The Form to Update the Biodata of a Student which is Later Fed to the HODs Profile for the Verification
-### 2. HOD
-The Responsibility of HOD is to Verify the Details of the Student and He can Update the Notification Messages
-### 3. Principal
-Principal Can Use Query tab to get almost all the Information He needs about a Student, Department and Overall Campus Drive Status
-### 4. Placement
-Placement Officier can have the authority to UPdate the drive, register the student for the drive and Querying the Database. The Master Access is given to Placement Management
+### IDE & Tools  
+- Visual Studio 2013 (with PHP Tools)  
+- Visual Studio Code (for editing all files)  
+- XAMPP (Apache Server + MySQL)
 
-## Homepage
-### Master Homepage
-It is the Main Homepage where the Links to all the Different Logins Contain along with a link to the Drives Homepage
-### Drives Homepage
-This Page is for the Visitors to Look at the Current Placement Drives News and Other things.
+ Note: Visual Studio is used for code editing only. To test PHP files, ensure the source code is placed inside `XAMPP/htdocs/www` and run via Apache server.
 
-#### Clean Code Help  is Required. Anybody Who Can helps to this Project, I will be Thankful to them. Hope you Join in this Project
+---
+
+## System Structure
+
+### Portals / Profilers  
+1. **Student Portal**  
+   - Update profile and submit biodata  
+   - Data is forwarded to HOD for verification  
+
+2. **HOD Portal**  
+   - Verify student details  
+   - Post notifications and updates  
+
+3. **CDC Portal**  
+   - Placement Officer access  
+   - Manage placement drives  
+   - Register students and query database  
+
+### Homepages  
+1. **Master Homepage**  
+   - Central hub with login links to all portals  
+   - Includes link to Drives Homepage  
+
+2. **Drives Homepage**  
+   - Public-facing page  
+   - Displays current placement drives and updates  
+
+---
+
+## Project Goals  
+- Build a clean, modular, and scalable codebase  
+- Ensure smooth data flow between portals  
+- Provide intuitive UI for all stakeholders  
+- Maintain secure and verified student data  
+
+---
+
+## Contributing  
+Clean code contributions, UI improvements, and feature suggestions are welcome!  
+If you're interested in collaborating on this project, feel free to fork, clone, and submit a pull request. Let's build something impactful together!
+
+---
+
+## Contact  
+For questions, feedback, or collaboration requests, please reach out via GitHub Issues or Discussions.
+
+
+Would you like help setting up the repository structure or adding badges and license info next?
